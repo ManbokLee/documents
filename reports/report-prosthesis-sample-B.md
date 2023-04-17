@@ -218,6 +218,6 @@
  - 13, 14, 15번 치아는 Pontic Type으로 Anatomic 방식으로 PMMA의 Vita 3D Master의 1M1 쉐이드로 진료
  - 14-15번 치아는 연결된 상태
  - 24, 25번 치아는 Onlay Zirconia Vita Classic의 A1 쉐이드로 진료
- - 37, 36번 치아는 Custom Abutment와 Implant Crown Type으로 Custom Abutment는 Screw Type 방법, Implant Crown은 Layered 방법을 적용 각각의 소재는 Zirconia로 동일하며 Shade는 Vita Classic의 A1 쉐이드로 진료, 이 두 치아는 연결된 상태
+ - 37, 36번 치아는 Custom Abutment와 Implant Crown Type으로 Custom Abutment는 Screw Type 방법, Implant Crown은 Layered 방법을 적용 각각의 소재 쉐이드의 정보는 각각의 type_{child}에 존재하며 없다면 해당 child type이 값을 가지지 않는 상태 이 두 치아는 연결된 상태
  - 47번 치아는 Denture Coping Type으로 Primary Telescopic Crown - PFM 방식 (이 방식의 소재는 Metal 만 존재)
  - 46번 치아는 Custom Abutment type으로 Zirconia 소재를 사용함
