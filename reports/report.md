@@ -34,7 +34,7 @@
 | report | object, requires <br> 작성된 리포트에 대한 내용 <br> orthodontics, prosthesis에 따라서 다른 data가 존재함 |  
 | report.data | array\<object\>, required <br> 치아와 관련된 정보 <br>structure는 별도 내용 확인 |  
 | report.connects | object, optional <br> 치아 선택 관련하여 연결관련된 정보 <br> structure는 별도 내용 확인|  
-| report.medicalReport | object, optional <br> rthodontics 에서 기록되는 진료 내용 <br> structure는 별도 내용 확인 |  
+| report.medicalReport | object, optional <br> orthodontics 에서 기록되는 진료 내용 <br> structure는 별도 내용 확인 |  
 | report.memo | string, optional <br> report에 별도로 기록된 메모가 있다면 해당 메모의 내용 <br> 개행은 "\n"으로 구별 |  
 
 ### Used Data Set [Version RV1]
