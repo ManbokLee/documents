@@ -5,6 +5,8 @@
 
 ## Default Report Data Structure
  - 케이스의 진료정보가 최종적으로 저장되는 형태
+ - 기본 저장 경로는 케이스의 root path
+ - 기본 저장 파일 명은 "teams_report.json"
 ```JSON
 {
   "report_version": "RV1",
