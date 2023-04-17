@@ -29,7 +29,7 @@
 | type | string, required <br>available values: "prosthesis", "orthodontics" <br>report의 유형 |  
 | provider | string, required <br>리포트가 작성된 프로그램 <br> - RAYTeams: rayteams<br> - D+Manager: dds_manager <br> - OrthoSimulator: ortho_simulator <br> RAYTeams외의 값은 임의 값으로 실제 사용할 값이 결정되면 변경예정|  
 | reversion | integer, optional <br>만약 리포트의 내용이 변경되었다면 변경된 최종 버전 숫자 |  
-| report_reversions | array\<object\>, optional <br>object로는 기존 reversion의 모든 데이터가 저장 <br>만약 리포트의 reversion이 발생했다면 기존 리버전의 모든 내용을 포함하는 정보 <br>단 report_reversion 필드는 포함되지 않음 |  
+| report_reversions | array\<object\>, optional <br>object로는 기존 reversion의 모든 데이터가 저장 <br>만약 리포트의 reversion이 발생했다면 기존 리버전의 모든 내용을 포함하는 정보 <br>단 report_reversions 필드는 포함되지 않음 |  
 | photos | object, optional <br> 별도로 표시할 사진, 동영상, 3D 모델등의 정보 <br> structure는 별도내용 확인|  
 | report | object, requires <br> 작성된 리포트에 대한 내용 <br> orthodontics, prosthesis에 따라서 다른 data가 존재함 |  
 | report.data | array\<object\>, required <br> 치아와 관련된 정보 <br>structure는 별도 내용 확인 |  
