@@ -116,6 +116,7 @@
 | label | 표시되는 Type에 대한 값 <br>엔드유저에게 노출되는 정보|
 | subLabel | 자신의 type이 child로 소속된 경우 해당 경우에 보이는 표시 문자 <br>post_core_coping의 경우 자신의 대표 label을 가지지만 child값에 다른 값이 존재함으로 method, material등의 선택 화면에서는 Coping이라는 label을 표시 |
 | unLink | 선택된 치아간 연결 설정이 불가능한지 여부 <br>이 값이 없거나 거짓이라면 치아간 연결 설정이 계산되어서 표시됨 <br> - 연결상태 선택 가능은 인접한 치아간의 소재가 동일하면 가능상태가 됨 <br> - ex: 11번 치아와 21번 치아의 소재가 동일하게 지르코니아라면 두개 치아간 연결 설정이 가능함. <br> - ex: 11번 치아와 21번 치아의 소재가 동일해도 unLink가 true인 inlay라면 연결 설정이 불가능함. |
+| autoLink | autoLink가 true인 type은 인접한 치아의 소재와 상관없이 연결 상태가 참인것으로 감안하여 계산됨.<br> -ex: 11,13 번 치아가 Crown의 지르코니아 소재이며 12번 치아의 type에 autoLink가 참인 경우 11, 12, 13번 치아는 연결 가능한 상태가 됨 |
 | innerFill | 진료가 내부를 채우는 용도로만 사용되는지 여부 <br>이 값이 참이라면 shade 선택지가 필요 없음 |
 | child | 없다면 자기 자신의 value를 값으로 가짐 (ex: Type Inlay -> child: ["inlay"]) <br>여러개가 존재한다면 해당 type의 진료가 포함된 상태 <br>여러개인 경우 method, material, shade도 각각 child의 values에 맞게끔 설정되어야함
  |
