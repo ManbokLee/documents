@@ -6,7 +6,7 @@
 
 > 입력 폼을 만들기 위한 값의 경우 추가/변경이 발생할 수 있습니다.
 
-[참고 문서 - exocad_Specification_Document_dentalProject_Format](./exocad_Specification_Document_dentalProject_Format_to_Be_Written_by_3rd_Party_Software-en)
+[참고 문서 - exocad_Specification_Document_dentalProject_Format](./exocad_Specification_Document_dentalProject_Format_to_Be_Written_by_3rd_Party_Software-en.pdf)
 
 ## Categories
 
