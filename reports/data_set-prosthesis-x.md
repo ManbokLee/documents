@@ -475,6 +475,7 @@
 | label | 표시되는 Material 대한 값 <br>엔드유저에게 노출되는 정보 |
 | desc | 값에 대한 추가 정보 및 설명 |
 | shades | 지원하는 쉐이드 value Array <br>빈 배열인 경우 쉐이드를 지원하지 않음 |
+| usedByType | 소재가 type에 의해서만 제공되는지 여부 <br> 이 값이 true인 경우 기본 소재에서는 제외됨 |
 | useable | 사용 여부 |
 
 ## Shades
