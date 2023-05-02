@@ -56,6 +56,7 @@
         "visible": true
       }
     },
+    "toothNumberingSystem": "FDI",
     "memo": "This is test case."
   },
   "revision": 1,
@@ -70,7 +71,6 @@
     "right_intra_oral": ".teams_medias/RIO.jpg",
     "right_smile": ".teams_medias/RSM.jpg"
   },
-  "toothNumberingSystem": "FDI",
   "created": 1682990271926
 }
 ```
