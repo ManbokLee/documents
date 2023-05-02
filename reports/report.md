@@ -44,7 +44,7 @@
 | created | report의 생성 timestamp (밀리 세컨트 까지) |
 
 ### Used Data Set [Version RV1]
-[Prosthesis](./data_set-prosthesis.md)   
+[Prosthesis](./data_set-prosthesis-x.md)   
 [Orthodontics:tooth](./data_set-orthodoctics_tooth.md)   
 [Orthodontics:medical](./data_set-orthodoctics_medicalRecords.md)   
 
