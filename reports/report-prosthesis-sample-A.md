@@ -1,6 +1,6 @@
 [to Root](./report.md)
 
-# Prosthesis Case B
+# Prosthesis Case A
 
 
 ## Sample Data Case
