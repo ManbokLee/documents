@@ -13,9 +13,9 @@
       "source": "C://Users//manbok.lee.RAYMEDICAL//Documents//test_data//rayface//",
       "projecttype": "DENTALAVATAR",
       "servicename": "trio-clear",
-      "sitemid": "s008",
-      "projectname": "string-0000",
-      "pid": "string-0000"
+      "sitemid": "s011",
+      "projectname": "s011",
+      "pid": "s011"
     }
     ```
     | prop | type | required | description | 
@@ -55,14 +55,14 @@
     | data.projecttype | The value entered during API call. |
     | data.servicename | The value entered during API call. |
     | data.sitemid | The value entered during API call. |
-    | pid | The value entered during API call or "sitemid" if no value was entered. |
-    | projectname | The value entered during API call or "sitemid" if no value was entered. |
-    | up | Synchronization flag, which always returns true. |
-    | ownerGroupId | The group ID of the logged-in user. |
-    | labId | The group ID of the logged-in user. |
-    | gid | The group ID of the logged-in user. |
-    | distPath | The path where the file will be uploaded to AWS S3. This value is the predicted result based on the assumption that the case will be successfully uploaded to S3. |
-    | attached | False is returned when the case is initially shared, but if it is shared again, additional files will be uploaded to S3, and this value will be returned as true. |
+    | data.pid | The value entered during API call or "sitemid" if no value was entered. |
+    | data.projectname | The value entered during API call or "sitemid" if no value was entered. |
+    | data.up | Synchronization flag, which always returns true. |
+    | data.ownerGroupId | The group ID of the logged-in user. |
+    | data.labId | The group ID of the logged-in user. |
+    | data.gid | The group ID of the logged-in user. |
+    | data.distPath | The path where the file will be uploaded to AWS S3. This value is the predicted result based on the assumption that the case will be successfully uploaded to S3. |
+    | data.attached | False is returned when the case is initially shared, but if it is shared again, additional files will be uploaded to S3, and this value will be returned as true. |
   - Fail. Wrong servicename
     ```JSON
     {
